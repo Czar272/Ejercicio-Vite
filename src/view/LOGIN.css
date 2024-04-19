@@ -36,6 +36,7 @@
     font-size: xx-large;
     text-align: left;
     border: 1px solid black;
+    overflow: hidden;
 }
 
 .txtbox::placeholder{
@@ -43,6 +44,7 @@
     font-size: xx-large;
     text-align: left;
     padding: 10px;
+    overflow: hidden;
 }
   
 .btn {
@@ -51,4 +53,5 @@
     margin-right: 10px;
     align-items: center;
     justify-content: center;
+    
 }
