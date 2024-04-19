@@ -1,6 +1,7 @@
 import { useState } from "react"
+import './LOGIN.css'
 
-function Login(){
+function Login({setRutaActual}){
 
     const [text, setText] = useState('');
 
@@ -18,7 +19,8 @@ function Login(){
                 <textarea className="txtbox" rows={1} placeholder="Contraseña" value={text} onChange={handleChange}></textarea>
                 <div className="contBtns">
                     <button className='btn'>Log in</button>
-                    <button className='btn'>Sign in</button>
+                    <button className='btn' onClick={()=>{setRutaActual("/home")}}>Cancelar</button>
+                    
                 </div>
 
             </div>
